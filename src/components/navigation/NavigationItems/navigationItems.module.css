@@ -1,0 +1,21 @@
+.navigationItems {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+
+    .navigationItems {
+
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: auto;
+    } 
+}

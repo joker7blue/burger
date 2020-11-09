@@ -1,0 +1,29 @@
+.buttonMenuToggle{
+    
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.buttonMenuToggle div{
+    
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin: 0px;
+}
+
+@media (min-width: 500px) {
+
+    .buttonMenuToggle {
+
+        display: none;
+    }
+}

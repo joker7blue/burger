@@ -1,0 +1,22 @@
+.formGroup {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+
+.formGroup .input{
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.formGroup .input:focus{
+    background-color: #CCC;
+}
+
+.formGroup .inputInvalid{
+    background-color: rgba(238, 60, 60, 0.514);
+}
