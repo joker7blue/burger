@@ -1,0 +1,15 @@
+.order {
+
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+.order .ingredientsFormated {
+    display: inline-block;
+}
+
+.order .ingredientsFormated span {
+    box-shadow: 0px 0px 2px gray;
+    padding: 5px;
+}
